@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddJournalEntryActivity"
+    android:background="#FFFFB3"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="75dp"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="2.8"
+            android:shadowRadius="1.6"
+            android:text="Journal"
+            android:drawableRight="@drawable/journaling"
+            android:textColor="#5891D4"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/indie_flower"
+            android:hint="Title" />
+
+        <EditText
+            android:id="@+id/editTextContent"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/indie_flower"
+            android:hint="Entry" />
+
+        <Button
+            android:id="@+id/buttonAddEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:radius="100dp"
+            android:padding="20dp"
+            android:background="@drawable/brown_round_button_background"
+            android:text="Add Entry" />
+
+        <Button
+            android:id="@+id/buttonDeleteEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:background="@drawable/brown_round_button_background"
+            android:text="Delete Entry" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kitty"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/buttonBackToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:padding="20dp"
+            android:background="@drawable/brown_round_button_background"
+            android:text="Dashboard" />
+
+        <Button
+            android:id="@+id/buttonViewList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:background="@drawable/brown_round_button_background"
+            android:text="View Journal List"
+            android:onClick="openJournalListActivity" />
+
+    </LinearLayout>
+</RelativeLayout>

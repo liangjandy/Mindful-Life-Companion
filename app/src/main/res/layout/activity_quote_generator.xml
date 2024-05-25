@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF0"
+    tools:context=".Activity.QuoteGeneratorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/back_from_quoteGen_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/back_btn"
+            android:layout_gravity="end"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="arial"
+            android:text="Categories"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+        <Spinner
+            android:id="@+id/selectCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownVerticalOffset="55dp"
+            android:popupBackground="#FFFAF0"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:fontFamily="@font/specialelite_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:lineSpacingExtra="5sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/specialelite_regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_below="@id/quote"/>
+
+            <ImageView
+                android:id="@+id/pin_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@id/author"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/pin_btn_filled" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/generateQuote"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_btn_yellow"
+                android:fontFamily="@font/sourcesans3"
+                android:text="Generate"
+                android:textFontWeight="600"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/saveQuote"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textFontWeight="600"
+                android:background="@drawable/rounded_btn_blue"
+                android:text="Save"
+                android:fontFamily="@font/sourcesans3"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Bookmarks"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookmarkedQuotesRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

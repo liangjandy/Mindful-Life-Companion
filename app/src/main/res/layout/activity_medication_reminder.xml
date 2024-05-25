@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#ADD8E6"
+    tools:context=".Activity.MedicationReminderActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/alarm_background"
+            android:paddingTop="40sp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/selectTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ds_digit"
+            android:gravity="center"
+            android:text="Select \nTime"
+            android:lineSpacingExtra="-18sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="85sp"
+            app:layout_constraintBottom_toBottomOf="@id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@id/imageView"
+            app:layout_constraintVertical_bias="0.52" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <View
+            android:id="@+id/guideline"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/setAlarm"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@id/guideline"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="8dp"
+            android:text="Set \nAlarm"
+            android:background="@drawable/stroke_round_button_background"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cancelAlarm"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:layout_alignStart="@id/guideline"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Cancel \nAlarm"
+            android:background="@drawable/stroke_round_button_background"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/setNotificationMessage"
+            android:layout_width="135dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/stroke_round_button_background"
+            android:text="Add Unique Reminder"/>
+        <Button
+            android:id="@+id/deleteNotificationMessage"
+            android:layout_width="135dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="220dp"
+            android:background="@drawable/stroke_round_button_background"
+            android:text="Default Reminder"/>
+
+        <Button
+            android:id="@+id/BackButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stroke_round_button_background"
+            android:layout_marginTop="15dp"
+            android:text="Dashboard"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/deleteNotificationMessage"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFB3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/man"
+                android:drawableRight="@drawable/man"
+                android:text="About Us"
+                android:textColor="#5891D4"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our project aims to increase focus on mental health. It is crucial for individuals to have access to a comprehensive mental health app. Sometimes individuals need help getting started and finding support in their mental health journey. Our app hopes to be that support."
+                android:textSize="16sp"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/indie_flower"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Helplines:"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:fontFamily="@font/indie_flower"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• National Eating Disorders Association (NEDA) Helpline: 1-800-931-2237"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/indie_flower"
+                android:textStyle="bold"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Anxiety and Depression Association of America (ADAA) Helpline: 1-240-485-1001"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/indie_flower"
+                android:textStyle="bold"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Depression and Bipolar Support Alliance (DBSA) Helpline: 1-800-826-3632"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/indie_flower"
+                android:textStyle="bold"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• National Helpline for Substance Abuse and Mental Health: 1-800-622-HELP (1-800-622-4357)"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/indie_flower"
+                android:textStyle="bold"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• National Suicide Prevention Lifeline: 1-800-273-TALK (1-800-273-8255)"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/indie_flower"
+                android:textStyle="bold"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assets:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:fontFamily="@font/indie_flower"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Icons by Freepik from www.flaticon.com:\n- Stunned icons created by bukeicon\n- Cry icons created by bukeicon\n- Mood icons created by bukeicon\n- Hug icons created by bukeicon\n- Cool icons created by bukeicon\n- Journal icons created by Freepik\n- Quote icons created by Freepik\n- Mood icons created by Freepik\n- Reminder icons created by Freepik\n- Info icons created by Freepik\n- Logout icons created by Pixel perfect\n- Bookmark icons created by Ilham Fitrotul Hayat\n- Trash icons created by Freepik\n- Pin icons created by Pixel perfect\n- Left arrow icons created by Freepik"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/indie_flower"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mindful Life Companion © 2024"
+            android:textSize="16sp"
+            android:textColor="#5891D4"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/indie_flower"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All rights reserved. This app and its contents are protected by copyright law."
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/indie_flower"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/inclusivity"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="1dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits: Anthony Chieng, Jay Chow, Giovanni Chumpitazi, Andy Liang, Bryam Ochoa, Emily Perez, Luis Sanchez, Tommy Works"
+            android:textSize="10sp"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:layout_marginTop="42dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/indie_flower"/>
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="@drawable/brown_round_button_background"
+            android:text="Dashboard"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</ScrollView>
+

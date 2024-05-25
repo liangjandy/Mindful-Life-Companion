@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MoodTrackerActivity"
+    android:background="#FF964F"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="184dp"
+            android:layout_height="62dp"
+            android:background="@drawable/blue_button_background"
+            android:text="Dashboard"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="What is your mood today?"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/mood_happy"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Happy"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button_background"
+            android:drawableRight="@drawable/mood_icon_happy_64x"
+            />
+        <Button
+            android:id="@+id/mood_productive"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Productive"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button_background"
+            android:drawableRight="@drawable/mood_icon_productive_64px"/>
+        <Button
+            android:id="@+id/mood_sad"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Sad"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button_background"
+            android:drawableRight="@drawable/mood_icon_sad_64px"/>
+        <Button
+            android:id="@+id/mood_nervous"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Nervous"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button_background"
+            android:drawableRight="@drawable/mood_icon_nervous_64px"/>
+        <Button
+            android:id="@+id/mood_angry"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Angry"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button_background"
+            android:drawableRight="@drawable/mood_icon_angry_64px"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

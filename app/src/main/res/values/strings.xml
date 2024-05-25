@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Mindful Life Companion</string>
+    <string name="MindfulLifeCompanion" />
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="or">-Or-</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="default_web_client_id"></string>
+    <string name="api_key"></string>
+
+    <string-array name="categories">
+        <item>Random</item>
+        <item>Age</item>
+        <item>Attitude</item>
+        <item>Beauty</item>
+        <item>Change</item>
+        <item>Dad</item>
+        <item>Dating</item>
+        <item>Death</item>
+        <item>Dreams</item>
+        <item>Failure</item>
+        <item>Family</item>
+        <item>Fitness</item>
+        <item>Forgiveness</item>
+        <item>Good</item>
+        <item>Happiness</item>
+        <item>Home</item>
+        <item>Hope</item>
+        <item>Humor</item>
+        <item>Imagination</item>
+        <item>Inspirational</item>
+        <item>Leadership</item>
+        <item>Learning</item>
+        <item>Love</item>
+        <item>Marriage</item>
+        <item>Medical</item>
+        <item>Money</item>
+        <item>Success</item>
+    </string-array>
+    <string name="title_activity_medication_reminder">MedicationReminderActivity</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_email_to_reset_your_password">Enter your email to reset your password.</string>
+    <string name="remember_your_password">Remember your Password?</string>
+    <string name="go_back">Go Back</string>
+    <string name="email_hint">example@mindful.life</string>
+</resources>
